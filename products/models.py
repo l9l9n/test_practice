@@ -2,5 +2,6 @@ from django.db import models
 
 
 class Product(models.Model):
-    name2 = models.CharField(max_length=200)
-    price = models.DecimalField(max_digits=7,decimal_places=2)
+    name = models.CharField(max_length=100)
+    mode = models.CharField(verbose_name='Режим')
+    # change mode
