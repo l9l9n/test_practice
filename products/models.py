@@ -7,4 +7,6 @@ class Product(models.Model):
     mode2 = models.CharField(verbose_name='Режим')
     mode3 = models.CharField(verbose_name='Режим')
     mode4 = models.CharField(verbose_name='Режим')
+    mode5 = models.CharField(verbose_name='Режим')
+    mode6 = models.CharField(verbose_name='Режим')
     # change mode
